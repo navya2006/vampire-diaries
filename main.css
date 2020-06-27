@@ -8,6 +8,7 @@
 /*BODY*/
 body{
     background-color: #000;
+    overflow-x: hidden;
 }
 
 
@@ -125,14 +126,23 @@ body{
     letter-spacing: 0.5vw;
 }
 
-.team img{
-    border-radius: 50%;
-    height: 12vw;
-    width: 10vw;
-    margin-left: 8vw;
-    margin-top: 3vw;
+.team .border{
+    border: solid 3px transparent;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    padding: 1.5vw;
 }
 
+.team .border img{
+    border-radius: 50%;
+    border: 3px black solid;
+    height: 12vw;
+    width: 10vw;
+}
+
+.team .border:hover{
+    background-color: #fff;
+}
 /*ANIMATIONS*/
 @keyframes fadeInDown {
     0% {
