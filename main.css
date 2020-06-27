@@ -1,0 +1,132 @@
+/*PREREQUISITES*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+body{
+    background-color: #000;
+}
+
+
+/*NAVBAR*/
+.nav {
+    background-color: #b00000;
+    padding: 20px 0px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    -webkit-animation: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -webkit-transition: 2s;
+    -webkit-animation-duration: 2s;
+}
+
+.nav a {
+    color: #fff;
+    font-size: 18px;
+    padding: 20 15px;
+    text-decoration: none;
+    margin-left: 0;
+    display: blocks;
+    transition: 0.4s;
+}
+
+.nav a:hover {
+    background-color: #FFD700;
+    color: black;
+}
+
+/* HOME */
+#home {
+    margin: 0;
+    height: 100%;
+}
+
+.home{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.home::before{
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.heading {
+    float: right;
+}
+
+.heading h1 {
+    color: #ffd700;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7.5vw;
+    margin-right: 25vw;
+    padding-top: 35%;
+    -webkit-animation: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-duration: 2s;
+    -webkit-transition: 2s;
+}
+
+
+/* ABOUT */
+.abt{
+    background-color: #ffe98a;
+    width: 100%;
+}
+
+.abt .info {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 6vw;
+}
+
+.abt .info p{
+    color: #111;
+    font-size: 2.3vw;
+    font-family: 'Lobster Two', cursive;;
+    word-spacing: 0.3vw;
+    text-align: center;
+}
+
+.abt .icon-2x{
+    font-size: 12em;
+    color: #b00000;
+    padding-left: 43vw;
+    padding-top: 4vw;
+}
+
+/*TEAM*/
+.team{
+    background-color: #16263b;
+    width: 100%;
+    height: 80%;
+}
+
+/*ANIMATIONS*/
+@keyframes fadeInDown {
+    0% {
+        margin-top: -100;
+        opacity: 0;
+    }
+
+
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
