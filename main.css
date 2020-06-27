@@ -171,21 +171,48 @@ body{
     width: 100%;
 }
 
+.poster .border1{
+    border: 3px solid transparent;
+    padding: 2vw;
+    margin-top: 2.5vw;
+    margin-left: 4.3vw;
+}
+
 .poster .one img{
     border: 3px solid #000;
-    height: 27vw;
+    height: 25vw;
     width: 23vw;
-    margin-top: 6vw;
-    margin-left: 8vw;
+    
+}
+
+.poster .border2{
+    border: 3px solid transparent;
+    padding: 2vw;
+    margin-top: 2vw;
+    margin-left: 14.5vw;
+    margin-bottom: 3vw;
 }
 
 .poster .two img{
     border: 3px solid #000;
-    height: 27vw;
+    height: 25vw;
     width: 23vw;
-    margin-top: 5vw;
-    margin-left: 18vw;
-    margin-bottom: 3vw;
+    
+}
+
+.poster h2{
+    color: #16263b;
+    font-size: 2.5vw;
+    padding-left: 7vw;
+    padding-top: 1vw;
+}
+
+.poster .border1:hover{
+    background-color: #fff;
+}
+
+.poster .border2:hover{
+    background-color: #fff;
 }
 
 /*ANIMATIONS*/
