@@ -133,6 +133,13 @@ body{
     padding: 1.5vw;
 }
 
+.team .border h2{
+    color: #16263b;
+    font-size: 1vw;
+    padding-top: 0.5vw;
+    padding-left: 1.7vw;
+}
+
 .team .border img{
     border-radius: 50%;
     border: 3px black solid;
@@ -143,6 +150,28 @@ body{
 .team .border:hover{
     background-color: #fff;
 }
+
+/*TRAILER*/
+.trailer{
+    background-color: #ffe98a;
+    width: 100%;
+}
+
+.trailer iframe{
+    height: 40vw;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+/*POSTERS*/
+.poster{
+    background-color: #16263b;
+    width: 100%;
+}
+
+
 /*ANIMATIONS*/
 @keyframes fadeInDown {
     0% {
