@@ -119,9 +119,9 @@ body{
 
 .team h1{
     color: #f2f2f2;
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: 'Abril Fatface', cursive;
-    padding-left: 30vw;
+    padding-left: 33vw;
     padding-top: 5vw;
     letter-spacing: 0.5vw;
 }
@@ -171,6 +171,22 @@ body{
     width: 100%;
 }
 
+.poster .one img{
+    border: 3px solid #000;
+    height: 27vw;
+    width: 23vw;
+    margin-top: 6vw;
+    margin-left: 8vw;
+}
+
+.poster .two img{
+    border: 3px solid #000;
+    height: 27vw;
+    width: 23vw;
+    margin-top: 5vw;
+    margin-left: 18vw;
+    margin-bottom: 3vw;
+}
 
 /*ANIMATIONS*/
 @keyframes fadeInDown {
