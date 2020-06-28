@@ -279,8 +279,11 @@ body{
     width: 13vw;
 }
 
-.merch .border:hover> h2{
+.merch .border:hover{
     background-color: #ffe98a;
+}
+
+.merch .border:hover> h2{
     opacity: 1;
     color: #000;
 }
