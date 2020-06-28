@@ -255,7 +255,7 @@ body{
 }
 
 .merch .border h2{
-    opacity: 0 #000;
+    opacity: 0;
     font-size: 1.5vw;
     padding: 1vw;
     text-align: center;
@@ -279,9 +279,10 @@ body{
     width: 13vw;
 }
 
-.merch .border:hover{
+.merch .border:hover> h2{
     background-color: #ffe98a;
     opacity: 1;
+    color: #000;
 }
 
 /*FOOTER*/
