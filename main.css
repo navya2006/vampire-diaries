@@ -231,7 +231,7 @@ body{
 .merch{
     width: 100%;
     background-color: rgba(0,0,0,0.4);
-    height: 100vw;
+    height: 110vw;
 }
 
 .merch::before {
@@ -266,8 +266,8 @@ body{
 }
 
 .merch .border .img1 img{
-    height: 20vw;
-    width: 18vw;
+    height: 23vw;
+    width: 21vw;
 }
 
 .merch .border .img2{
@@ -275,8 +275,8 @@ body{
 }
 
 .merch .border .img2 img{
-    height: 12vw;
-    width: 11vw;
+    height: 15vw;
+    width: 13vw;
 }
 
 .merch .border:hover{
