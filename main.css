@@ -224,7 +224,7 @@ body{
 .merch{
     width: 100%;
     background-color: rgba(0,0,0,0.4);
-    height: 200%;
+    height: 100vw;
 }
 
 .merch::before {
@@ -235,7 +235,7 @@ body{
     background-size: cover;
     background-position: center;
     content: "";
-    height: 200%;
+    height: 100vw;
     width: 100%;
     z-index: -1;
 }
