@@ -29,7 +29,8 @@ body{
 
 .nav a {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.1vw;
+    font-family: 'Crete Round', serif;
     padding: 20 15px;
     text-decoration: none;
     margin-left: 0;
@@ -131,13 +132,15 @@ body{
     margin-left: 5vw;
     margin-top: 2vw;
     padding: 1.5vw;
+    transition: 0.4s;
 }
 
 .team .border h2{
     color: #16263b;
-    font-size: 1vw;
-    padding-top: 0.5vw;
-    padding-left: 1.7vw;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5;
+    font-size: 1.2vw;
+    text-align: center;
 }
 
 .team .border img{
@@ -176,6 +179,7 @@ body{
     padding: 2vw;
     margin-top: 2.5vw;
     margin-left: 4.3vw;
+    transition: 0.4s;
 }
 
 .poster .one img{
@@ -191,6 +195,7 @@ body{
     margin-top: 2vw;
     margin-left: 14.5vw;
     margin-bottom: 3vw;
+    transition: 0.4s;
 }
 
 .poster .two img{
@@ -213,6 +218,61 @@ body{
 
 .poster .border2:hover{
     background-color: #fff;
+}
+
+/*MERCHANDISE*/
+.merch{
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    height: 200%;
+}
+
+.merch::before {
+    position: absolute;
+    background-attachment: fixed;
+    background-image: url("images/merchbg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    content: "";
+    height: 200%;
+    width: 100%;
+    z-index: -1;
+}
+
+.merch .border {
+    border: 3px solid transparent;
+    padding: 2vw;
+    margin-top: 2.5vw;
+    margin-left: 7.5vw;
+}
+
+.merch .border h2{
+    color: #000;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.merch .border .img1{
+    border: 2px solid #000;
+}
+
+.merch .border .img1 img{
+    height: 20vw;
+    width: 18vw;
+}
+
+.merch .border .img2{
+    border: 2px solid #000;
+}
+
+.merch .border .img2 img{
+    height: 12vw;
+    width: 11vw;
+}
+
+.merch .border:hover{
+    background-color: #ffe98a;
 }
 
 /*ANIMATIONS*/
